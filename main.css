@@ -1,0 +1,24 @@
+ul{
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div, ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div{
+    width: 300px;
+    justify-content: space-between;
+}
