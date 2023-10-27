@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 ul{
     list-style: none;
     justify-content: space-evenly;
@@ -12,13 +17,46 @@ a:hover{
     text-decoration: underline;
 }
 
-div, ul{
+ul, .elementosHeader{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
 }
 
-div{
-    width: 300px;
+.elementosHeader{
     justify-content: space-between;
+}
+
+#menu{
+    width: 350px;
+    color: #635352;
+}
+
+#contato{
+    width: 155px;
+}
+
+#whatsapp{
+    background-color: #F59A1B;
+    padding: 5px;
+    border-radius: 5px;
+    width: 75px
+}
+
+#redes{
+    width: 52px;
+}
+
+hr{
+    width: 2px;
+    height: 35px;
+    color: #000;
+    border: 0;
+}
+
+header{
+    background-image: url(images/banner-hero.png);
+    background-repeat: no-repeat;
 }
