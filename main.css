@@ -18,11 +18,8 @@ a:hover{
 }
 
 ul, .elementosHeader{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
+    display: grid;
+
 }
 
 .elementosHeader{
