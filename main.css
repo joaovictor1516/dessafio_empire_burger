@@ -26,6 +26,14 @@ ul, .elementosHeader{
     justify-content: space-between;
 }
 
+.oferta{
+    padding: 5px;
+}
+
+.oferta, #promocao h2{
+    text-transform: uppercase;
+}
+
 #menu{
     width: 350px;
     color: #635352;
@@ -44,6 +52,24 @@ ul, .elementosHeader{
 
 #redes{
     width: 52px;
+}
+
+#hamburguer{
+    background: url(ofertas_imagens/oferta-1.png) no-repeat;
+    height: 431px;
+    width: 770px;
+}
+
+#batata{
+    background: url(ofertas_imagens/oferta-2.png) no-repeat;
+    height: 201px;
+    width: 371px;
+}
+
+#sorvete{
+    background: url(ofertas_imagens/oferta-3.png) no-repeat;
+    height: 201px;
+    width: 371px;
 }
 
 hr{
