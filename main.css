@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lilita+One&display=swap');
+
 ul{
     list-style: none;
     justify-content: space-evenly;
@@ -17,9 +19,8 @@ a:hover{
     text-decoration: underline;
 }
 
-ul, .elementosHeader{
+ul, .elementosHeader, .oferta, #direitos, #promocao{
     display: grid;
-
 }
 
 .elementosHeader{
@@ -27,11 +28,30 @@ ul, .elementosHeader{
 }
 
 .oferta{
+    grid-template-columns: 308px;
+    grid-template-rows: 28px;
     padding: 5px;
 }
 
 .oferta, #promocao h2{
     text-transform: uppercase;
+}
+
+.nomeOferta, .pesoOferta{
+    grid-column: 1;
+}
+
+.nomeOferta{
+    grid-row: 1;
+}
+
+.pesoOferta{
+    grid-row: 2;
+}
+
+#fraseHamburguer{
+    grid-row: 3;
+    grid-column: 3;
 }
 
 #menu{
@@ -58,18 +78,27 @@ ul, .elementosHeader{
     background: url(ofertas_imagens/oferta-1.png) no-repeat;
     height: 431px;
     width: 770px;
+    grid-row-start: 1;
+    grid-column-end: 3;
+    grid-column: 1;
 }
 
 #batata{
     background: url(ofertas_imagens/oferta-2.png) no-repeat;
     height: 201px;
     width: 371px;
+    grid-row: 1;
 }
 
 #sorvete{
     background: url(ofertas_imagens/oferta-3.png) no-repeat;
     height: 201px;
     width: 371px;
+    grid-row: 3;
+}
+
+#batata, #sorvete{
+    grid-column: 3;  
 }
 
 #funcionamento{
